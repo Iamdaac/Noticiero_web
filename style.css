@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Display&display=swap'); /*Importar fonts externas*/
+
+*{ /*Aplicar a todo dentro de la web*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{ /*El cuerpo*/
+    background-color: #0A2463;
+}
+.Banner{ /*Banner de la web para resaltar el logo*/
+    background-color: #0A2463;
+}
+.Logo{ /*El Logo de la web*/
+    margin: auto;
+    height: 180px;
+    width: 180px;
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+h1{ /*Titulos h1*/
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 58px;
+    color: white;
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+nav{ /*Editar el menu de navegacion*/
+    background-color: #FCFAF9;
+    max-width: auto;
+    height: 54px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.mensup a{ /*Clase mensup los links dentro de esta clase*/
+    list-style: none;
+    display: inline-block;
+    padding:18px;
+}
+nav a:hover{ /*Hover del link dentro del nav*/
+    background-color: #5A5766;
+}
+h2{ /*Titulo h28*/
+    margin-top: 23px;
+    font-family: 'Roboto', sans-serif;
+}
+a{ /*Links o referencias dentro de la web*/
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    cursor:pointer;
+    font-weight: 700;
+    color: #0A2463;
+}
+.page { /*Llamado a la case page en el body*/
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+.container{  /*Contenedor que almacena el primer section*/
+    grid-area: 1 / 1 / 5 / 4; 
+}
+.container p{ /*Parrafos dentro del contenedor de section*/
+    font-size: 20px;
+}
+.container hr{ /*Linea divisora*/
+    width: 80%;
+    margin-left: 10%;
+    color: #5A5766;
+}
+.container h2{ /*Titulo h2 en contenedor*/
+    text-transform: uppercase;
+    color: red;
+    font-size: 40px;
+}
+.container img{ /*Imagenes dentro del contenedor de section*/
+    margin-top: 8px;
+    width: 705px;
+    height: 480px;
+}
+section{ /*Editar el section*/
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: #FCFAF9;
+    border-radius: 8px;
+    text-align: center;
+    padding: 8px;
+}
+.bsde{ /*Posicionamineto de grid para la clase bsde que simula un aside*/
+    grid-area: 1 / 4 / 5 / 6;
+}
+.bsde{ /*Editar el bsde*/
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+    background-color: #FCFAF9;
+    border-radius: 8px;
+    text-align: center;
+    padding: 8px;
+}
+.bsde img{ /*Editar las imagenes dentro del bsde*/
+    margin-top: 8px;
+    width: 300px;
+    height: 200px;
+}
+p{ /*Parrafos en general*/
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: justify;
+    font-family: 'Wix Madefor Display', sans-serif;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+footer{
+    margin-top: 18px;
+    margin-bottom: 10px;
+    height: 30px;
+    background-color: #919092b2;
+    text-align: center;
+}
+footer ul{
+    list-style: none;
+    display: inline-block;
+}
+footer ul li{
+    float: left;
+}
+footer ul li a {
+    color: #5a5766e1;
+    text-decoration: none;
+    padding: 10px;
+}
