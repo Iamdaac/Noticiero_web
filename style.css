@@ -44,7 +44,7 @@ nav{ /*Editar el menu de navegacion*/
 nav a:hover{ /*Hover del link dentro del nav*/
     background-color: #5A5766;
 }
-h2{ /*Titulo h28*/
+h2{ /*Titulo h2*/
     margin-top: 23px;
     font-family: 'Roboto', sans-serif;
 }
@@ -116,22 +116,58 @@ p{ /*Parrafos en general*/
     margin-left: 12px;
     margin-right: 12px;
 }
-footer{
+footer{ /*Pie de pagina*/
     margin-top: 18px;
     margin-bottom: 10px;
     height: 30px;
     background-color: #919092b2;
     text-align: center;
 }
-footer ul{
+footer ul{ /*Lista desordenada en pie de pagina*/
     list-style: none;
     display: inline-block;
 }
-footer ul li{
+footer ul li{ /*Elementos dentro de la lista deosrdenada en el pie de pagina*/
     float: left;
 }
-footer ul li a {
+footer ul li a { /*Links dento del footer*/
     color: #5a5766e1;
     text-decoration: none;
     padding: 10px;
 }
+
+/* Fin de css para pagina HOME */ 
+
+/*Inicio de Css para seccion Deportes */
+.hsubt{ /*Clase para el nombre de pagina en la que nos encontramos actualmente*/
+    text-transform: uppercase;
+    color: #FCFAF9;
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.vidtit{ /*Referencia para los titulos de los videos*/
+    padding-bottom: 5px;
+}
+.parent { /*Contenedor padre para aplicar el grid a las secciones*/
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+    
+.div1 { /*Primera seccion*/
+    grid-area: 1 / 1 / 4 / 2;
+    height: 380px;
+}
+.div2 { /*Segunda seccion*/
+    grid-area: 1 / 2 / 4 / 3; 
+    height: 380px;
+}
+.div3 { /*Tercera seccion*/
+    grid-area: 1 / 2 / 4 / 4;
+    height: 380px; 
+    margin-right: 20px;
+}
+/*Fin de Css para seccion Deportes
