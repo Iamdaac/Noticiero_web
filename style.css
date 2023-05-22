@@ -92,7 +92,6 @@ section{
     border-radius: 8px;
     text-align: center;
     padding: 8px;
-    display: inline-block;
 }
 .bsde{ /*Posicionamineto de grid para la clase bsde que simula un aside*/
     grid-area: 1 / 4 / 5 / 6;
@@ -108,6 +107,9 @@ section{
     margin-top: 8px;
     width: 300px;
     height: 200px;
+}
+.bros{
+    border: 4px solid #0A2463;
 }
 p{ /*Parrafos en general*/
     margin-top: 10px;
@@ -165,3 +167,9 @@ footer ul li a { /*Links dento del footer*/
     margin-right: 20px;
 }
 /*Fin de Css para seccion Deportes
+
+/*Inicio de Css para seccion Internacional*/
+.imgI{
+    width: 340px;
+    height: 220px;
+}
