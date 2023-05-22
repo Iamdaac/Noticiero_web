@@ -92,6 +92,7 @@ section{
     border-radius: 8px;
     text-align: center;
     padding: 8px;
+    display: inline-block;
 }
 .bsde{ /*Posicionamineto de grid para la clase bsde que simula un aside*/
     grid-area: 1 / 4 / 5 / 6;
@@ -152,15 +153,15 @@ footer ul li a { /*Links dento del footer*/
     
 .div1 { /*Primera seccion*/
     grid-area: 1 / 1 / 4 / 2;
-    height: 380px;
+    height: 420px;
 }
 .div2 { /*Segunda seccion*/
     grid-area: 1 / 2 / 4 / 3; 
-    height: 380px;
+    height: 420px;
 }
 .div3 { /*Tercera seccion*/
     grid-area: 1 / 2 / 4 / 4;
-    height: 380px; 
+    height: 420px; 
     margin-right: 20px;
 }
 /*Fin de Css para seccion Deportes*/
