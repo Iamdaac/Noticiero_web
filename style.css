@@ -119,19 +119,12 @@ p{ /*Parrafos en general*/
 footer{ /*Pie de pagina*/
     margin-top: 18px;
     margin-bottom: 10px;
-    height: 30px;
+    height: 80px;
     background-color: #919092b2;
-    text-align: center;
-}
-footer ul{ /*Lista desordenada en pie de pagina*/
-    list-style: none;
-    display: inline-block;
-}
-footer ul li{ /*Elementos dentro de la lista deosrdenada en el pie de pagina*/
-    float: left;
+    text-align: left;
 }
 footer ul li a { /*Links dento del footer*/
-    color: #5a5766e1;
+    color: #a19d9d;
     text-decoration: none;
     padding: 10px;
 }
