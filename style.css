@@ -153,15 +153,15 @@ footer ul li a { /*Links dento del footer*/
     
 .div1 { /*Primera seccion*/
     grid-area: 1 / 1 / 4 / 2;
-    height: 420px;
+    height: 440px;
 }
 .div2 { /*Segunda seccion*/
     grid-area: 1 / 2 / 4 / 3; 
-    height: 420px;
+    height: 440px;
 }
 .div3 { /*Tercera seccion*/
     grid-area: 1 / 2 / 4 / 4;
-    height: 420px; 
+    height: 440px; 
     margin-right: 20px;
 }
 /*Fin de Css para seccion Deportes*/
