@@ -6,7 +6,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{ /*El cuerpo*/
+body{
     background-color: #0A2463;
 }
 .Banner{ /*Banner de la web para resaltar el logo*/
@@ -44,7 +44,7 @@ nav{ /*Editar el menu de navegacion*/
 nav a:hover{ /*Hover del link dentro del nav*/
     background-color: #5A5766;
 }
-h2{ /*Titulo h2*/
+h2{
     margin-top: 23px;
     font-family: 'Roboto', sans-serif;
 }
@@ -55,7 +55,7 @@ a{ /*Links o referencias dentro de la web*/
     font-weight: 700;
     color: #0A2463;
 }
-.page { /*Llamado a la case page en el body*/
+.page { /*Llamado a la clase page, que contiene las sections y el container en el body*/
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(4, 1fr);
@@ -83,7 +83,7 @@ a{ /*Links o referencias dentro de la web*/
     width: 705px;
     height: 480px;
 }
-section{ /*Editar el section*/
+section{
     margin-top: 20px;
     margin-left: 20px;
     background-color: #FCFAF9;
@@ -93,8 +93,6 @@ section{ /*Editar el section*/
 }
 .bsde{ /*Posicionamineto de grid para la clase bsde que simula un aside*/
     grid-area: 1 / 4 / 5 / 6;
-}
-.bsde{ /*Editar el bsde*/
     float: right;
     margin-top: 20px;
     margin-right: 20px;
