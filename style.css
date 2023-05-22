@@ -77,7 +77,7 @@ a{ /*Links o referencias dentro de la web*/
 }
 .container h2{ /*Titulo h2 en contenedor*/
     text-transform: uppercase;
-    font-weight: 800;
+    color: red;
     font-size: 40px;
 }
 .container img{ /*Imagenes dentro del contenedor de section*/
@@ -164,8 +164,4 @@ footer ul li a { /*Links dento del footer*/
     height: 440px; 
     margin-right: 20px;
 }
-/*Fin de Css para seccion Deportes*/
-
-
-
-
+/*Fin de Css para seccion Deportes
