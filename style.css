@@ -42,7 +42,9 @@ nav{ /*Editar el menu de navegacion*/
     padding:18px;
 }
 nav a:hover{ /*Hover del link dentro del nav*/
-    background-color: #5A5766;
+    background-color: #74727a;
+    color: #FCFAF9;
+    border-radius: 25px;
 }
 h2{
     margin-top: 23px;
